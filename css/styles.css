@@ -108,3 +108,60 @@ body {
     color: #4b5563;
     font-size: 14px;
 }
+
+.flags-section {
+    padding: 24px;
+}
+
+.flags-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #003b5c;
+}
+
+.flags-intro {
+    color: #4b5563;
+    margin-bottom: 24px;
+    line-height: 1.5;
+}
+
+.flag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 16px;
+}
+
+.flag-card {
+    background: #f8fbff;
+    border: 1px solid #dbe4ea;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.15s ease;
+}
+
+.flag-card:hover {
+    transform: translateY(-2px);
+}
+
+.small-flag {
+    height: 70px;
+    margin-bottom: 12px;
+}
+
+.flag-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003b5c;
+}
+
+.flag-desc {
+    font-size: 14px;
+    color: #4b5563;
+    margin-top: 6px;
+    line-height: 1.4;
+}
+
+.flag-category {
+    margin-top: 36px;
+}
