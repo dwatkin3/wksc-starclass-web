@@ -1,0 +1,6 @@
+gitignore id="zjlwmu"
+
+.DS_Store
+Thumbs.db
+
+.vscode/
