@@ -1,0 +1,110 @@
+css id="pjlwm0"
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 760px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.header {
+    background: #003b5c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin-top: 6px;
+    opacity: 0.9;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid #dbe4ea;
+}
+
+.card:nth-child(odd) {
+    background: #f8fbff;
+}
+
+.time {
+    font-size: 46px;
+    font-weight: bold;
+    color: #003b5c;
+}
+
+.go {
+    color: #16a34a;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.flag {
+    height: 80px;
+    margin-bottom: 12px;
+}
+
+.flag-lowered {
+    opacity: 0.35;
+}
+
+.signal {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.blue {
+    background: #2563eb;
+}
+
+.navy {
+    background: #003b5c;
+}
+
+.orange {
+    background: #f59e0b;
+}
+
+.green {
+    background: #16a34a;
+}
+
+.footer {
+    background: #f3f4f6;
+    padding: 12px;
+    text-align: center;
+    color: #4b5563;
+    font-size: 14px;
+}
